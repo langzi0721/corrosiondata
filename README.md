@@ -4,8 +4,7 @@ This repository contains the experimental data and model code for the paper *Dat
 
 
 ## 1. Repository Structure
-- `data1/`: Raw experimental data (collected from 400 relevant publications in the LLM)
-- `data2/`: Preprocessed & cleaned core dataset (directly used for the analysis in this paper)
+- `data/`: Preprocessed & cleaned core dataset (directly used for the analysis in this paper) 【if you want use LLM data, please call me,I will provide.】
 - `code/`: Code scripts corresponding to different chapters/sections of the paper
   - `code_1-1.py`: 
   - `code_2-1.py`: 
