@@ -4,24 +4,29 @@ This repository contains the experimental data and model code for the paper *Dat
 
 
 ## 1. Repository Structure
-- `data/`: Preprocessed & cleaned core dataset (directly used for the analysis in this paper) 【if you want use LLM data, please call me,I will provide.】
+- `data.xlsx/`: Preprocessed & cleaned core dataset (directly used for the analysis in this paper) 
 - `code/`: Code scripts corresponding to different chapters/sections of the paper
-  - `code_1-1.py`: 
-  - `code_2-1.py`: 
-  - `code_3-1.py`: 
-  - `[others]`: 
+  - `4.1.py`
+  - `4.2analys in feature.py`
+  - `4.2-SHAP.py`
+  - `4.3.py`
+
 
 ## 2. Requirements
-- Python 3.12
-- numpy
-- pandas
-- scikit-learn
-- matplotlib
-- shap
-- and so on
+# Python version
+Python 3.12.2
+
+# 第三方依赖库版本
+| 库名称         | 版本号  | 
+|----------------|---------|
+| pandas         | 2.2.1   | 
+| numpy          | 1.26.4  | 
+| scikit-learn   | 1.7.2   | 
+| shap           | 0.47.0  | 
+| xgboost        | 3.1.2   | 
 
 ## 3. Citation
-If you use this repository, please cite our paper:(if publication , I will wright here.)
+If you use this repository, please cite our paper:(The citation information will be added here once the paper is published.)
 
 ## 4. A Note to Fellow Researchers
 Wishing all fellow researchers who use this repository:
